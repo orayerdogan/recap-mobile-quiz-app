@@ -1,10 +1,11 @@
 /*centers the content and sets width limit*/
 .card-list {
-  padding: 10rem 2rem 4rem 2rem;
+  padding: 4rem 2rem 4rem 2rem;
   max-width: 45rem;
   margin: 0 auto;
 }
 /*the space between cards*/
 .card-list__item {
+  flex-direction: row;
   margin: 0 0 4rem;
 }

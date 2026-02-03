@@ -1,0 +1,24 @@
+/*bookmark button*/
+.bookmark {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--white);
+}
+/*changes the cursor*/
+.bookmark:hover {
+  cursor: pointer;
+}
+/*icon turns black*/
+/*this is actually not needed if we use a filled icon*/
+.bookmark--active {
+  color: var(--black);
+}
+/*icon has parrents color*/
+.bookmark__icon {
+  fill: currentColor;
+  position: top;
+  width: 2rem;
+}

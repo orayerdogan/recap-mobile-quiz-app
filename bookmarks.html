@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Anime Quiz</h1>
+    </header>
+    <main>
+      <ul class="card-list">
+        <li class="card-list__item">
+          <article class="card">
+            <h2 class="card__question">
+              In the anime Sailor Moon, what is the name of the Cat who is
+              guiding Usagi(main protagonist)?
+            </h2>
+            <button class="card__button-answer" type="button">
+              Show answer
+            </button>
+            <p class="card__answer--active">Luna</p>
+            <ul class="card-list">
+              <li class="card__tag-list-item">#black</li>
+              <li class="card__tag-list-item">#moon</li>
+              <li class="card__tag-list-item">#speakingcat</li>
+            </ul>
+
+            <div class="card__button-bookmark">
+              <button class="bookmark" aria-label="bookmark" type="button">
+                <img
+                  class="bookmark__icon"
+                  src="./assets/img/bookmark-filled.png"
+                  viewbox="0 0 24 24"
+                />
+              </button>
+            </div>
+          </article>
+        </li>
+        <li class="card-list__item">
+          <article class="card">
+            <h2 class="card__question">
+              in which anime do the female protagonists transform into witches
+              with the famous words “Pirika Pirirala Popolina Peperuto”?
+            </h2>
+            <button class="card__button-answer" type="button">
+              Show answer
+            </button>
+            <p class="card__answer">Doremi</p>
+            <ul class="card-list">
+              <li class="card__tag-list-item">#solfège</li>
+              <li class="card__tag-list-item">#teenagegirls</li>
+              <li class="card__tag-list-item">#syllables</li>
+            </ul>
+            <div class="card__button-bookmark">
+              <button class="bookmark" aria-label="bookmark" type="button">
+                <img
+                  class="bookmark__icon"
+                  src="./assets/img/bookmark-filled.png"
+                  viewbox="0 0 24 24"
+                />
+              </button>
+            </div>
+          </article>
+        </li>
+        <li class="card-list__item">
+          <article class="card">
+            <h2 class="card__question">
+              Son Goku and Straw Hat Luffy share the same voice actor in the
+              japanese version. Who is the brilliant person who lends their
+              voice to both iconic characters?
+            </h2>
+            <button class="card__button-answer" type="button">
+              Show answer
+            </button>
+            <p class="card__answer">Masako Nozawa</p>
+            <ul class="card-list">
+              <li class="card__tag-list-item">#female</li>
+              <li class="card__tag-list-item">#old</li>
+            </ul>
+            <div class="card__button-bookmark">
+              <button class="bookmark" aria-label="bookmark" type="button">
+                <img
+                  class="bookmark__icon"
+                  src="./assets/img/bookmark-filled.png"
+                  viewbox="0 0 24 24"
+                />
+              </button>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item--active">
+          <a class="nav__link" href="/index.html" aria-label="go to home page">
+            <img
+              class="nav__icon"
+              src="./assets/img/home.png"
+              width="24px"
+              height="24px"
+              alt="Home"
+            />
+          </a>
+        </li>
+        <li class="nav__list-item--active">
+          <a
+            class="nav__link"
+            href="/bookmarks.html"
+            aria-label="go to bookmark page"
+          >
+            <img
+              class="nav__icon"
+              src="./assets/img/bookmark-filled.png"
+              width="24px"
+              height="24px"
+              alt="Bookmark"
+            />
+          </a>
+        </li>
+        <li class="nav__list-item--active">
+          <a
+            class="nav__link"
+            href="/profile.html"
+            aria-label="go to profile page"
+          >
+            <img
+              src="./assets/img/user.png"
+              width="24px"
+              height="24px"
+              alt="Profile"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

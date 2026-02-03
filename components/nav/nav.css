@@ -1,5 +1,5 @@
 .nav {
-  background: var(--primary);
+  background: lightgreen;
   border-top: 1px solid var(--black);
   position: fixed;
   bottom: 0;
@@ -7,7 +7,33 @@
   width: 100%;
 }
 /**/
-.nav__list{
-  display:flex;
+.nav__list {
+  display: flex;
   justify-content: space-evenly;
+}
+/**/
+.nav__list-item {
+  padding: 1.5rem 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/**/
+.nav__list-item--active {
+  background-color: var(--secondary-light);
+}
+/**/
+.nav__list-item:not(:first-child) {
+  border-left: 1px solid var(--black);
+}
+/**/
+.nav__link {
+  color: var(--black);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+/**/
+.nav__link img {
+  fill: currentColor;
 }

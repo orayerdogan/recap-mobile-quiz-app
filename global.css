@@ -1,7 +1,7 @@
 :root {
   --primary: #ffffff;
-  --secondary: #ff4a11;
-  --secondary-light: #fddcd2;
+  --secondary: #5369e8;
+  --secondary-light: #9eef75;
   --white: #ffffff;
   --black: #252629;
   --ff-primary: sans-serif;
@@ -35,8 +35,8 @@ p {
 }
 /*sets the default for the site*/
 body {
-  line-height: 1.5;
-  font-family: var(--ff-primry);
+  line-height: 1.2;
+  font-family: var(--ff-primary);
   color: var(--black);
 }
 /*Button design*/
@@ -63,4 +63,9 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+/*space for header and bottom nav*/
+main {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
