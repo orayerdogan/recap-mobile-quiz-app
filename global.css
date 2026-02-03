@@ -1,5 +1,5 @@
 :root {
-  --primary: #ffffff;
+  --primary: #ec9f04;
   --secondary: #e853d4;
   --secondary-light: #9eef75;
   --white: #ffffff;
@@ -35,6 +35,7 @@ p {
 }
 /*sets the default for the site*/
 body {
+  background: var(--primary);
   line-height: 1.2;
   font-family: var(--ff-primary);
   color: var(--black);
